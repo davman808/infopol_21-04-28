@@ -30,6 +30,7 @@ h3  {
   align-items: center;
 }
 #shadowhover  {
+  align-items: center;
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
