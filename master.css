@@ -33,31 +33,58 @@ h3  {
   background-color: black;
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 13px 26px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 2px 1px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 .hvr1  {
   background-color: white;
   color: black;
-  border: 2px solid #4CAF50;
+  border: 2px solid red;
 }
 
 .hvr1:hover {
-  background-color: #4CAF50;
+  background-color: red;
   color: white;
 }
 .hvr2 {
   background-color: white;
   color: black;
-  border: 2px solid red;
+  border: 2px solid orange;
 }
 .hvr2:hover {
-  background-color: red;
+  background-color: orange;
   color: white;
+}
+.hvr3 {
+  background-color: white;
+  color: black;
+  border: 2px solid yellow;
+}
+.hvr3:hover {
+  background-color: yellow;
+  color: black;
+}
+.hvr4 {
+  background: white;
+  color: black;
+  border: 2px solid green;
+}
+.hvr4:hover {
+  background-color: green;
+  color: white
+}
+.hvr5 {
+  background: white;
+  color: black;
+  border: 2px solid blue;
+}
+.hvr5:hover {
+  background-color: blue;
+  color: white
 }
