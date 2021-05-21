@@ -53,5 +53,11 @@ h3  {
   color: white;
 }
 .hvr2 {
-
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+}
+.hvr2:hover {
+  background-color: red;
+  color: white;
 }
