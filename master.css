@@ -2,17 +2,11 @@ html  {
   height: 100%;
 }
 body  {
-  height: 100%;
+  height: 95%;
   background-image:linear-gradient(235deg, purple, #00dbfb);
   scroll-behavior: smooth;
 }
-h1  {
-  text-align: center;
-}
-h2  {
-  text-align: center;
-}
-h3  {
+.header {
   text-align: center;
 }
 
