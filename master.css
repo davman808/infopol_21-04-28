@@ -5,9 +5,11 @@ body  {
   height: 95%;
   background-image:linear-gradient(235deg, purple, #00dbfb);
   scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .header {
   text-align: center;
+  color: white;
 }
 
 #list1 {
@@ -15,7 +17,6 @@ body  {
   height: 20em;
   width: 25em;
   border: 1px solid #333;
-  box-shadow: 8px 8px 5px #333;
   padding: 8px 12px;
   background-image: linear-gradient(white, #b2b2b2);
 }
