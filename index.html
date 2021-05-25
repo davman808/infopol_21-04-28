@@ -19,7 +19,23 @@
       <button type="button" name="button" class="button hover hvr5" id="hvrbtn5">Subpage 5</button>
       <p>(bitte in Vollbild benutzen)</p>
     </div>
-  <script src="PageOpener.js"></script>
+  <script>
+    document.getElementById("hvrbtn1").onclick = function transferToSubpage1() {
+      window.open("subpage1.html")
+    }
+    document.getElementById("hvrbtn2").onclick = function transferToSubpage2() {
+      window.open("subpage2.html")
+    }
+      document.getElementById("hvrbtn3").onclick = function transferToSubpage3() {
+      window.open("subpage3.html")
+    }
+    document.getElementById("hvrbtn4").onclick = function transferToSubpage4() {
+      window.open("subpage4.html")
+    }
+    document.getElementById("hvrbtn5").onclick = function transferToSubpage5() {
+      window.open("subpage5.html")
+    }
+  </script>
   </body>
 </html>
 <!--QUELLE: https://www.bitkom.org/sites/default/files/2020-02/200211_bitkom_studie_wirtschaftsschutz_2020_final.pdf-->

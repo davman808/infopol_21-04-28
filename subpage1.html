@@ -49,9 +49,24 @@
       angriffe auf Passwörter und Infizierung mit Schadsoftware und Phishing. Es ergibt sich das Hacker immer besser
       ausgerüstet werden und besser werden, wie auch mehr Zeit und Qualität investieren in ihre Werke. Daraus folgt das
       Cyberangriffe immer mehr zu nehmen.</p>
-      <button type="button" name="button" class="button jumpto top" id="btntotop">hier gehts nach oben</button>
+      <a href="#">hier gehts nach oben</a>
     </div>
-    <script src="PageOpener.js"></script>
-    <script src="JumpTo.js"></script>
+    <script>
+      document.getElementById("hvrbtn1").onclick = function transferToIndex() {
+        window.open("index.html")
+      }
+      document.getElementById("hvrbtn2").onclick = function transferToSubpage2() {
+        window.open("subpage2.html")
+      }
+      document.getElementById("hvrbtn3").onclick = function transferToSubpage3() {
+        window.open("subpage3.html")
+      }
+      document.getElementById("hvrbtn4").onclick = function transferToSubpage4() {
+        window.open("subpage4.html")
+      }
+      document.getElementById("hvrbtn5").onclick = function transferToSubpage5() {
+        window.open("subpage5.html")
+      }
+    </script>
   </body>
 </html>
