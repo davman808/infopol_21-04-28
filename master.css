@@ -36,6 +36,8 @@ body  {
   margin: 2px 1px;
   transition-duration: 0.4s;
   cursor: pointer;
+  max-height: 5em;
+  width: inherit;
 }
 .hvr1  {
   background-color: white;

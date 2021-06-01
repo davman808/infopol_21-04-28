@@ -9,7 +9,7 @@ body  {
 }
 .linkbox {
   margin: left;
-  height: 23em;
+  height: fit-content;
   width: 14em;
   border: 1px solid #333;
   box-shadow: 8px 8px 5px #333;
@@ -43,6 +43,8 @@ body  {
   margin: 2px 1px;
   transition-duration: 0.4s;
   cursor: pointer;
+  max-height: 5em;
+  width: inherit;
 }
 .hvr1  {
   background-color: white;
